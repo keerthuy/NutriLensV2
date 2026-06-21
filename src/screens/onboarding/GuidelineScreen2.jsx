@@ -1,0 +1,1 @@
+// GuidelineScreen2 component

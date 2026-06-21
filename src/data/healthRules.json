@@ -1,0 +1,12 @@
+{
+  "diabetes": ["sugar", "high-fructose-corn-syrup", "dextrose"],
+  "highBloodPressure": ["sodium", "msg"],
+  "heartDisease": ["trans-fat", "saturated-fat"],
+  "kidneyDisease": ["high-potassium", "high-phosphorus"],
+  "highCholesterol": ["saturated-fat", "trans-fat"],
+  "vegan": ["dairy", "egg", "animal-derived", "gelatin", "honey"],
+  "peanutAllergy": ["peanut"],
+  "dairyAllergy": ["dairy", "lactose"],
+  "glutenAllergy": ["gluten"],
+  "eggAllergy": ["egg"]
+}

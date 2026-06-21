@@ -1,0 +1,1 @@
+// MedicalConditionScreen component

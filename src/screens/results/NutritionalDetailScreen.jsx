@@ -1,0 +1,1 @@
+// NutritionalDetailScreen component

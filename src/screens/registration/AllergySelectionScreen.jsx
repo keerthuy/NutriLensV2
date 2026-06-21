@@ -1,0 +1,1 @@
+// AllergySelectionScreen component

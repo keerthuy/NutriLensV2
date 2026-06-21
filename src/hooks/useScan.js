@@ -1,0 +1,1 @@
+// Scan state management hook

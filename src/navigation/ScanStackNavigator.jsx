@@ -1,0 +1,1 @@
+// ScanStackNavigator navigator

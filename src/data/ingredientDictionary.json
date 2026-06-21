@@ -1,0 +1,12 @@
+{
+  "sucrose": { "normalizedCategory": "sugar", "restricted": true },
+  "corn syrup": { "normalizedCategory": "sugar", "restricted": true },
+  "glucose": { "normalizedCategory": "sugar", "restricted": true },
+  "sodium chloride": { "normalizedCategory": "sodium", "restricted": true },
+  "casein": { "normalizedCategory": "dairy", "restricted": true },
+  "whey": { "normalizedCategory": "dairy", "restricted": true },
+  "gelatin": { "normalizedCategory": "animal-derived", "restricted": true },
+  "wheat flour": { "normalizedCategory": "gluten", "restricted": true },
+  "groundnut oil": { "normalizedCategory": "peanut", "restricted": true },
+  "msg": { "normalizedCategory": "sodium", "restricted": true }
+}
