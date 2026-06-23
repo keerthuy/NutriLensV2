@@ -93,7 +93,7 @@ const TermsAndConditionsScreen = ({ navigation }) => {
             disabled={!agreed}
             onPress={() => {
               // Action when accepted
-              navigation.navigate('Login'); // Adjust destination if needed
+              navigation.navigate('SignUpScreen'); // Navigate to the registered route name
             }}
           >
             <Text style={styles.acceptButtonText}>Accept & Continue</Text>

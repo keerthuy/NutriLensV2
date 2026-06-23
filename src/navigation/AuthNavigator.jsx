@@ -7,8 +7,10 @@ import GuidelineScreen2 from '../screens/onboarding/GuidelineScreen2';
 import GuidelineScreen3 from '../screens/onboarding/GuidelineScreen3';
 import TermsAndConditionsScreen from '../screens/onboarding/TermsAndConditionsScreen';
 
-// Placeholders for subsequent screens
-const MockScreen = () => null;
+import LoginScreen from '../screens/auth/LoginScreen';
+import SignUpScreen from '../screens/auth/SignUpScreen';
+import DietPreferenceScreen from '../screens/registration/DietPreferenceScreen';
+import MedicalConditionScreen from '../screens/registration/MedicalConditionScreen';
 
 const Stack = createStackNavigator();
 
@@ -23,7 +25,10 @@ export default function AuthNavigator() {
       <Stack.Screen name="Guideline2" component={GuidelineScreen2} />
       <Stack.Screen name="Guideline3" component={GuidelineScreen3} />
       <Stack.Screen name="TermsAndConditionsScreen" component={TermsAndConditionsScreen} />
-      <Stack.Screen name="Login" component={MockScreen} />
+      <Stack.Screen name="SignUpScreen" component={SignUpScreen} />
+      <Stack.Screen name="LoginScreen" component={LoginScreen} />
+      <Stack.Screen name="DietPreferenceScreen" component={DietPreferenceScreen} />
+      <Stack.Screen name="MedicalConditionScreen" component={MedicalConditionScreen} />
     </Stack.Navigator>
   );
 }
