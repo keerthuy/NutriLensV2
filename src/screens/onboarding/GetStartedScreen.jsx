@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   description: {
+    fontFamily: typography.fonts.regular,
     fontSize: typography.sizes.sm,
     color: colors.textPrimary,
     lineHeight: typography.lineHeights.normal * typography.sizes.sm,

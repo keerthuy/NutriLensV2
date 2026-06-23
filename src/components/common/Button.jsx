@@ -65,8 +65,8 @@ const styles = StyleSheet.create({
     opacity: 0.6,
   },
   text: {
+    fontFamily: typography.fonts.bold,
     fontSize: typography.sizes.md,
-    fontWeight: typography.weights.bold,
   },
   primaryText: {
     color: colors.backgroundWhite,
